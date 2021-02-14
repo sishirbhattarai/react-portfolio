@@ -1,9 +1,8 @@
 body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif,
-    Helvetica, sans-serif;
+  font-family: cursive;
   box-sizing: border-box;
-  background-color: #cccccc;
-  font-size: 1.2rem;
+  background-color: rgb(0, 174, 255);
+  font-size: 1 rem;
 }
 
 input[type="text"],
@@ -69,10 +68,10 @@ footer {
   text-align: center;
 }
 
-p{
+/* p{
   font-size: 1.5rem;
-  
-}
+    
+} */
 
 .navbar-dark .navbar-brand {
   font-size: 1.5rem;

@@ -1,5 +1,7 @@
 import React  from 'react';
-
+import './indexstyle.css'
+import './contactstyle.css'
+import './portfoliostyle.css'
 
 function About() {
     return (

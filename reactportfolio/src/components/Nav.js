@@ -1,4 +1,7 @@
 import React from 'react';
+import './indexstyle.css'
+import './contactstyle.css'
+import './portfoliostyle.css'
 
 function Nav() {
     return (
@@ -21,7 +24,7 @@ function Nav() {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="contact.html"
-                  >Contact <span className="sr-only">(current)</span></a
+                  >Contact <span className="sr-only"></span></a
                 >
               </li>
               <li className="nav-item">
