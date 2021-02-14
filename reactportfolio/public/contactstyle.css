@@ -1,0 +1,80 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif,
+    Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: #cccccc;
+  font-size: 1.2rem;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(12, 7, 7);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #343a40;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: whitesmoke;
+}
+
+.container {
+  border-radius: 0px;
+  background-color: #27191359;
+  padding: 0px;
+  margin-top: 5rem;
+  margin-left: 0.75rem;
+  float: left;
+  max-width: 65%;
+}
+
+.card-title {
+  margin-bottom: 1.5rem;
+  font-size: 2.3rem;
+  color: #343a40;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  font-size: 1rem;
+}
+
+a {
+  font-size: 1.4rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
+
+p{
+  font-size: 1.5rem;
+  
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 1.5rem;
+}
+
