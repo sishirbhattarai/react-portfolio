@@ -1,7 +1,7 @@
 body {
   font-family: cursive;
   box-sizing: border-box;
-  background-color: rgb(0, 174, 255);
+  background-color: rgb(151, 137, 137);
   font-size: 1 rem;
 }
 
@@ -56,6 +56,11 @@ form {
 
 a {
   font-size: 1.4rem;
+  color:rosybrown;
+  text-decoration: none;
+  margin-right: 1rem;
+  position: right;
+  
 }
 
 footer {

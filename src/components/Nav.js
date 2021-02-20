@@ -27,11 +27,12 @@ function Nav() {
               <Link to="/contact">Contact</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="portfolio.html">Resume</a>
+              <Link to="/resume">Resume</Link>
               </li>
   
               <li className="nav-item">
-                <a className="nav-link" href="index.html">About</a>
+              <Link to="/about">About</Link>
+                {/* <a className="nav-link" href="index.html">About</a> */}
               </li>
             </ul>
           </div>
