@@ -13,10 +13,11 @@ import Contact from './components/Contact'
 function App() {
   return (
   <div>
-               <Router>
-               <Nav />
-               <About />
-     <Switch>
+    <About />
+       <Router>
+         <Nav />
+               
+        <Switch>
           {/* <Route path="/about">
             <About />
           </Route> */}
@@ -26,8 +27,8 @@ function App() {
           {/* <Route path="/">
             <Home />
           </Route> */}
-        </Switch>
-      </Router>
+         </Switch>
+        </Router>
       </div>
 
 
