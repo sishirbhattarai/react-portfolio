@@ -1,7 +1,8 @@
 import React from 'react';
-import './indexstyle.css'
-import './contactstyle.css'
-import './portfoliostyle.css'
+import { Link } from "react-router-dom";
+import '../styles/indexstyle.css'
+import '../styles/contactstyle.css'
+import '../styles/portfoliostyle.css'
 
 function Nav() {
     return (
@@ -23,9 +24,7 @@ function Nav() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="Contact.html"
-                  >Contact <span className="sr-only"></span></a
-                >
+              <Link to="/contact">Contact</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="portfolio.html">Resume</a>

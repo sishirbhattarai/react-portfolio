@@ -1,5 +1,11 @@
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
 import './App.css';
-import React  from 'react';
 import About from './components/About';
 import Nav from './components/Nav'
 import Contact from './components/Contact'
@@ -7,10 +13,26 @@ import Contact from './components/Contact'
 function App() {
   return (
   <div>
-    <Nav />
-    <About />
-    <Contact />
-  </div>
+               <Router>
+               <Nav />
+               <About />
+     <Switch>
+          {/* <Route path="/about">
+            <About />
+          </Route> */}
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          {/* <Route path="/">
+            <Home />
+          </Route> */}
+        </Switch>
+      </Router>
+      </div>
+
+
+    
+  
   );
 }
 

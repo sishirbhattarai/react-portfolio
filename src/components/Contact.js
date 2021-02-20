@@ -1,7 +1,7 @@
 import React  from 'react';
-import './indexstyle.css'
-import './contactstyle.css'
-import './portfoliostyle.css'
+import '../styles/indexstyle.css'
+import '../styles/contactstyle.css'
+import '../styles/portfoliostyle.css'
 
 function Contact() {
     return (
@@ -26,17 +26,12 @@ function Contact() {
                   </p>
                   <p class="Phone"><strong>Phone: </strong> (704)-806-5842</p>
                   <p class="Github">
-                    <strong>Github: </strong
-                    ><a
+                    <strong>Github: </strong>
+                    <a
                       href="https://github.com/sishirbhattarai"
                       target="_blank"
                       >https://github.com/sishirbhattarai</a
                     >
-                    {/* <!-- <ol class = "list" type="a">
-                      <li>Coffee</li>
-                      <li>Tea</li>
-                      <li>Milk</li>
-                    </ol> --> */}
                   </p>
                   <p class="Linked">
                     <strong>LinkedIn: </strong
