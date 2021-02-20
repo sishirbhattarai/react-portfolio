@@ -5,18 +5,18 @@ import '../styles/portfoliostyle.css'
 
 function Resume() {
     return (
-        <div class="container">
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-sm-12">
-                <h5 class="card-title"><strong>Resume</strong></h5>
+        <div className="container">
+        <div className="card">
+          <div className="card-body">
+            <div className="row">
+              <div className="col-sm-12">
+                <h5 className="card-title"><strong>Resume</strong></h5>
                 <hr />
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-sm-6">
+            <div className="row">
+              <div className="col-sm-6">
                 <p>Click on the logo to download the resume:</p>
 
                   <a href="/Resume-Sishir-Bhattarai.pdf" download>
