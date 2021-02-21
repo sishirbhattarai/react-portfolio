@@ -30,6 +30,6 @@ function Resume() {
           </div>
         </div>
       </div>
-    )
+     )
 }
 export default Resume;
