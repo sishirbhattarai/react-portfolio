@@ -11,16 +11,22 @@ import Nav from './components/Nav'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Footer from './components/Footer'
+import Project from './components/Project'
+import Intro from './components/Intro'
 
 function App() {
   return (
   <div>
       <Router>
          <Nav />
+         <Intro />
          <Footer />
         <Switch>
           <Route path="/about">
+            <>
             <About />
+            <Project />
+            </>
           </Route>
           <Route path="/contact">
             <Contact />

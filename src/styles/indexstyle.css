@@ -1,8 +1,8 @@
 body {
   font-family: cursive;
   box-sizing: border-box;
-  background-color: rgb(151, 137, 137);
-  font-size: 1 rem;
+  background-image: url("code.jpg");
+  font-size: 1.5 rem;
 }
 
 .container {

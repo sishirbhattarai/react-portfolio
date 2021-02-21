@@ -1,8 +1,8 @@
 body {
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   box-sizing: border-box;
-  background-color: rgb(151, 137, 137);
-  font-size: 1 rem;
+  background-image:url("code.jpg");
+  font-size: 1.5 rem;
 }
 
 input[type="text"],
@@ -67,11 +67,11 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 50%;
   background-color: #343a40;
   color: white;
   text-align: center;
-}
+  }
 
 /* p{
   font-size: 1.5rem;

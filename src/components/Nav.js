@@ -7,8 +7,8 @@ import '../styles/portfoliostyle.css'
 function Nav() {
     return (
         <header>
-        <nav className="navbar navbar-expand-md bg-dark navbar-dark" >
-          <a className="navbar-brand" href=" ">Sishir Bhattarai</a>
+        <nav className="navbar navbar-expand-md bg-brown navbar-dark" >
+          <a className="navbar-brand" href="/about">Sishir Bhattarai</a>
           <button
             className="navbar-toggler"
             type="button"

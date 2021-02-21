@@ -1,19 +1,20 @@
 body {
-  font-family: cursive;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
-  background-color: rgb(151, 137, 137);
-  font-size: 1 rem;
+  background-image: url("code1.png");
+  font-size:1.21rem;
 }
+
 
 .card-title {
   margin-bottom: 1.5rem;
   font-size: 2.3rem;
-  color: #343a40;
+  color: rgb(82, 5, 5);
 }
 
 .container {
   border-radius: 0px;
-  background-color: #27191359;
+  background-color: brown;
   padding: 0px;
   margin-top: 2.5rem;
   margin-left: 0.75rem;

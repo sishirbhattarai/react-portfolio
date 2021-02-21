@@ -17,7 +17,7 @@ function About() {
 
             <div className="row">
               <div className="col-sm-12 col-md-4">
-                <img src="/image3.jpg" width="100%" />
+                <img src="/image3.jpg" width="200%" />
               </div>
               <div className="col-sm-12 col-md-8">
                 
@@ -35,10 +35,6 @@ function About() {
                   
                   The Marketable Skills that I am learning are HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Command Line, Git, and more.
                 </p>
-                <p>
-                  You can click on below Github link to find my projects and work. 
-                  <p><a href="https://github.com/sishirbhattarai"target="_blank">My Git <i class="fab fa-github"></i> Page </a></p>
-                </p>
               </div>
               </div>
               <div class="row">
@@ -50,8 +46,6 @@ function About() {
                     ensure that all tasks are successfully accomplished on time.
                     You can also click on below link to find me on LinkedIn. 
                   </p>
-
-<p><a href="https://www.linkedin.com/in/sishir-bhattarai/"target="_blank">My Linked <i class="fab fa-linkedin"></i> Page </a></p>
 
                 </div>
               </div>

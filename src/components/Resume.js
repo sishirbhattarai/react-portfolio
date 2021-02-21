@@ -20,7 +20,7 @@ function Resume() {
                 <p>Click on the logo to download the resume:</p>
 
                   <a href="/Resume-Sishir-Bhattarai.pdf" download>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRABWUKvt8DoB8oD1GqtzK1_Xv67mlq7yNULg&usqp=CAU" alt="W3Schools" width="204" height="202"></img>
+                    <img src="/resume.png" alt="W3Schools" width="204" height="202"></img>
                   
                     </a>
                   
