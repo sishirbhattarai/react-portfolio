@@ -8,7 +8,7 @@ function Nav() {
     return (
         <header>
         <nav className="navbar navbar-expand-md bg-brown navbar-dark" >
-          <a className="navbar-brand" href="/about">Sishir Bhattarai</a>
+          <a className="navbar-brand" href="/">Sishir Bhattarai</a>
           <button
             className="navbar-toggler"
             type="button"
@@ -28,6 +28,10 @@ function Nav() {
               </li>
               <li className="nav-item">
               <Link to="/resume">Resume</Link>
+              </li>
+              
+              <li className="nav-item">
+              <Link to="/">Intro</Link>
               </li>
   
               <li className="nav-item">

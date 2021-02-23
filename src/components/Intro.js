@@ -5,9 +5,15 @@ import '../styles/portfoliostyle.css'
 
 function Intro() {
     return (
-        <div className= "bg-white">
-        <h1>Welcome to Sishir's Portfolio</h1>
-        </div>
+        
+        <div class= "container-card">
+            <h1>Profile Card</h1>
+        <img src="./image3.jpg" alt="Sishir"></img>
+        <h1>Sishir Bhattarai</h1>
+        <p class="title">Cloud Engineer@Dell Technologies</p>
+  
+</div>
+
     )
 }
 

@@ -19,13 +19,13 @@ function App() {
   <div>
       <Router>
          <Nav />
-         <Intro />
          <Footer />
         <Switch>
           <Route path="/about">
             <>
             <About />
             <Project />
+            <Footer />
             </>
           </Route>
           <Route path="/contact">
@@ -33,6 +33,9 @@ function App() {
           </Route>
           <Route path="/resume">
             <Resume />
+          </Route>
+          <Route path="/">
+          <Intro />
           </Route>
          </Switch>
          
