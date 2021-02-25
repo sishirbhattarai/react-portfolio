@@ -1,4 +1,5 @@
 import React  from 'react';
+import image from '../styles/image3.jpg'
 import '../styles/indexstyle.css'
 import '../styles/contactstyle.css'
 import '../styles/portfoliostyle.css'
@@ -17,7 +18,7 @@ function About() {
 
             <div className="row">
               <div className="col-sm-12 col-md-4">
-                <img src="/image3.jpg" width="200%" />
+                <img src={image} alt='profile' width="200%" />
               </div>
               <div className="col-sm-12 col-md-8">
                 
