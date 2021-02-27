@@ -15,13 +15,13 @@ https://github.com/sishirbhattarai/react-portfolio
 MIT
 
 ## Test:
-![](/Capture1.PNG)
+![](./Assets/Capture1.PNG)
 
-![](/Capture2.PNG)
+![](./Assets/Capture2.PNG)
 
-![](/Capture3.PNG)
+![](./Assets/Capture3.PNG)
 
-![](/Capture4.PNG)
+![](./Assets/Capture4.PNG)
 
 ## Contributors
 Sishir Bhattarai
