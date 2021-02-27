@@ -3,7 +3,7 @@
 ## Description
 This is my newly built react portfolio and it shows all my works. 
 
-## Live deployed Heroku site: 
+## Live deployed site: 
 
 https://sishirbhattarai.github.io/react-portfolio/
 
