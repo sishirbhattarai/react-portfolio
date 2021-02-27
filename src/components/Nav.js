@@ -8,7 +8,7 @@ function Nav() {
     return (
         <header>
         <nav className="navbar navbar-expand-md bg-brown navbar-dark" >
-          <a className="navbar-brand" href="/">Sishir Bhattarai</a>
+          <a className="navbar-brand">Sishir Bhattarai</a>
           <button
             className="navbar-toggler"
             type="button"
