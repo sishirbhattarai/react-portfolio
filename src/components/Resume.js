@@ -1,5 +1,5 @@
 import React  from 'react';
-import image1 from '../styles/image3.jpg'
+import image1 from '../styles/resume.png'
 import '../styles/indexstyle.css'
 import '../styles/contactstyle.css'
 import '../styles/portfoliostyle.css'

@@ -47,7 +47,7 @@ function Project() {
         </ul>
 
         <p1><b>b) Password Generator Application: </b>The user story for this application is, AS AN employee with access to sensitive data
-          I WANT to randomly generate a password that meets certain criteria
+          I want to randomly generate a password that meets certain criteria
           so that I can create a strong password that provides greater security. For more information, click my Github link below.</p1>
 
         <ul>

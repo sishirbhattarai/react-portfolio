@@ -1,9 +1,9 @@
-body {
+/* body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
   background-color: rgb(4, 4, 88);
   font-size:1.21rem;
-}
+} */
 
 .container-card {
   background-color:rgb(245, 245, 245);
@@ -50,7 +50,7 @@ footer {
 }
 
 a {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color:rosybrown;
   text-decoration: none;
   margin-right: 1rem;

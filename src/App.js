@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -17,7 +17,7 @@ import Intro from './components/Intro'
 function App() {
   return (
   <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL} >
          <Nav />
          <Footer />
         <Switch>
